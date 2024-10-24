@@ -15,7 +15,7 @@ int main(void) {
         numAss =numAss + num;
          }
     else if (num>-1){
-    numAss= numAss + num
+    numAss = numAss + num;
     }   
      } 
     printf("somma valori assoluti : %d",numAss);
