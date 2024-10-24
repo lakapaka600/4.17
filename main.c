@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void) {
     int numeriDaSommare;
@@ -12,9 +11,13 @@ int main(void) {
         i++;
         printf("Inserisci numero: ");
         scanf("%d", &num);
-        numAss += abs(num);
-
-    }
+        if (num<0){
+        numAss =numAss + num;
+         }
+    else if (num>-1){
+    numAss= numAss + num
+    }   
+     } 
     printf("somma valori assoluti : %d",numAss);
     return 0;
 }
